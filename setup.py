@@ -12,10 +12,10 @@ setuptools.setup(
     license="MIT",
     description="Hard Obfuscate Tool For Python",
     author="0xe2d0",
-    url="https://github.com/davidteather/python-obfuscator",
+    url="https://github.com/0xe2d0/pyshield",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    download_url="https://github.com/davidteather/python-obfuscator/tarball/master",
+    download_url="https://github.com/0xe2d0/pyshield/tarball/master",
     keywords=["obfuscator","python-obfuscate","pyshield","python code obfuscate"],
     install_requires=["regex","rich"],
    classifiers=[
@@ -28,5 +28,5 @@ setuptools.setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
     ],
-    entry_points={"console_scripts": ["pyobfuscate=python_obfuscator.cli:cli"]},
+    entry_points={"console_scripts": ["pyshield=pyshield.cli:cli"]},
 )
