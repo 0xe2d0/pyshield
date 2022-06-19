@@ -17,3 +17,10 @@ Printing The Obfuscated Code :
 result = PyShield.obfuscate(file_path,level)
 print(result)
 </code></pre>
+# ☠️ For Windows
+<pre><code>from pyshield import PyShield
+result = PyShield.obfuscate("example.py",3)
+open("result.py","w",encoding='utf8').write(result)
+</code></pre>
+
+
