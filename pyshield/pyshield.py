@@ -8,7 +8,7 @@ class PyShield:
         levels = [1,2,3]
         
         if level not in levels:
-            print(2)
+            print("Please select a number between one (1) and three(3)!")
             return False
 
 
