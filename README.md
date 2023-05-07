@@ -4,7 +4,7 @@
 
 # 🤖 Installation
 <pre><code>pip install pyshield</code></pre>
-And thats it. So east.
+And thats it. So easy.
 
 # ✨ Quick Start
 Printing The Obfuscate Code :
